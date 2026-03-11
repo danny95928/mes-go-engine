@@ -1,0 +1,14 @@
+# 忽略 Docker 挂载的数据目录
+data/
+/data/
+
+# 忽略 Go 编译的二进制文件
+*.exe
+mes-go-engine
+
+# 忽略环境变量配置
+.env
+
+# 忽略 IDE 缓存
+.idea/
+.vscode/
